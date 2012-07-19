@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="build/.apt_generated"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path=".apt_generated">
+		<attributes>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/guava-12.0.jar"/>
+	<classpathentry kind="lib" path="/Library/Application Support/Titanium/mobilesdk/osx/2.1.0.GA/android/kroll-apt.jar"/>
+	<classpathentry kind="lib" path="/Library/Application Support/Titanium/mobilesdk/osx/2.1.0.GA/android/kroll-common.jar"/>
+	<classpathentry kind="lib" path="/Library/Application Support/Titanium/mobilesdk/osx/2.1.0.GA/android/titanium.jar" sourcepath="/android-sdk-macosx/sources/android-15"/>
+	<classpathentry kind="lib" path="/android-sdk-macosx/platforms/android-10/android.jar"/>
+	<classpathentry kind="lib" path="lib/android-10-compile.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

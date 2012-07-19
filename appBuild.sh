@@ -1,0 +1,1 @@
+ant clean dist;rm -rf /Library/Application\ Support/Titanium/modules/android/com.acktie.mobile.android.nfc.reader/; unzip dist/com.acktie.mobile.android.nfc.reader-android-1.0.zip -d /Library/Application\ Support/Titanium/;

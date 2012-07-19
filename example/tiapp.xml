@@ -1,0 +1,33 @@
+<android xmlns:android="http://schemas.android.com/apk/res/android">
+	<manifest>
+		<uses-sdk android:minSdkVersion="10" />
+		<application>
+			<!--NOTE: You need to fill in your android:name and android:label for your app.  The easiest way to do this is build the app and
+			look at the AndroidManifest.xml in the build/android directory-->
+			<activity android:name="<YourAppName>" android:label="<YourAppLabel>" android:theme="@style/Theme.Titanium"
+			android:configChanges="keyboardHidden|orientation">
+				<intent-filter>
+					<action android:name="android.intent.action.MAIN" />
+					<category android:name="android.intent.category.LAUNCHER" />
+				</intent-filter>
+
+				<!-- Example of Launching app based upon a mime type of text/plain -->
+				<!intent-filter>
+					<action android:name="android.nfc.action.NDEF_DISCOVERED" />
+					<category android:name="android.intent.category.DEFAULT" />
+					<data android:mimeType="text/plain" />
+				</intent-filter>
+
+				<!-- For more examples see http://developer.android.com/guide/topics/connectivity/nfc/nfc.html#filtering-intents -->
+				<!-- Example of Launching app based upon a URI -->
+				<!-- intent-filter>
+				<action android:name="android.nfc.action.NDEF_DISCOVERED" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<data android:scheme="http"
+				android:host="acktie.com"
+				android:pathPrefix="" />
+				</intent-filter -->
+			</activity>
+		</application>
+	</manifest>
+</android>
