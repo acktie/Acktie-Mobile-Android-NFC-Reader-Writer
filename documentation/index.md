@@ -1,4 +1,4 @@
-# Acktie Mobile Android NFC Reader Module
+# Acktie Mobile Android NFC Module
 
 ## Description
 
@@ -27,11 +27,11 @@ NOTE: We recommend downloading a NFC read/write application to assist you in you
 
 NOTE: This module was tested and developed using a Samsung Nexus S.  We could not find a good simulator so testing on a device is required.
 
-## Acktie Mobile Android NFC Reader Module
+## Acktie Mobile Android NFC Module
 
 To access this module from JavaScript, you would do the following:
 
-	var nfc = require("com.acktie.mobile.android.nfc.reader");
+	var nfc = require("com.acktie.mobile.android.nfc");
 
 The nfc variable is a reference to the Module object.	
 

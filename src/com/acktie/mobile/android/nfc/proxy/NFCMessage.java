@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.acktie.mobile.android.nfc.reader.proxy;
+package com.acktie.mobile.android.nfc.proxy;
 
 import org.appcelerator.kroll.KrollProxy;
 import org.appcelerator.kroll.annotations.Kroll;

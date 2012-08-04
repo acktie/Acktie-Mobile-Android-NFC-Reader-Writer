@@ -1,4 +1,4 @@
-package com.acktie.mobile.android.nfc.reader.proxy;
+package com.acktie.mobile.android.nfc.proxy;
 
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.Charset;

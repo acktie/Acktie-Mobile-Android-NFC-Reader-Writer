@@ -11,8 +11,8 @@ copyright: Copyright 2012 Acktie, LLC, All Rights Reserved
 
 
 # these should not be edited
-name: acktiemobileandroidnfcreader
-moduleid: com.acktie.mobile.android.nfc.reader
+name: acktiemobileandroidnfc
+moduleid: com.acktie.mobile.android.nfc
 guid: 3691c6b3-3cf3-4ef4-8e2e-4ecbb30753c4
 platform: android
 minsdk: 1.8.2

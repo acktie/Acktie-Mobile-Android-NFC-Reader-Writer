@@ -6,7 +6,7 @@
  * Please see the LICENSE included with this distribution for details.
  *
  */
-package com.acktie.mobile.android.nfc.reader;
+package com.acktie.mobile.android.nfc;
 
 import java.io.IOException;
 import java.nio.charset.Charset;
@@ -43,8 +43,8 @@ import android.nfc.tech.Ndef;
 import android.nfc.tech.NfcA;
 import android.os.Parcelable;
 
-import com.acktie.mobile.android.nfc.reader.proxy.NFCMessage;
-import com.acktie.mobile.android.nfc.reader.proxy.ParsedNdefRecord;
+import com.acktie.mobile.android.nfc.proxy.NFCMessage;
+import com.acktie.mobile.android.nfc.proxy.ParsedNdefRecord;
 import com.google.common.base.Preconditions;
 
 /**
@@ -53,11 +53,11 @@ import com.google.common.base.Preconditions;
  * @author TNuzzi
  * 
  */
-@Kroll.module(name = "Acktiemobileandroidnfcreader", id = "com.acktie.mobile.android.nfc.reader")
-public class AcktiemobileandroidnfcreaderModule extends KrollModule {
+@Kroll.module(name = "Acktiemobileandroidnfc", id = "com.acktie.mobile.android.nfc")
+public class AcktiemobileandroidnfcModule extends KrollModule {
 
 	// Standard Debugging variables
-	private static final String LCAT = "AcktiemobileandroidnfcreaderModule";
+	private static final String LCAT = "AcktiemobileandroidnfcModule";
 
 	@SuppressWarnings("unused")
 	private static final boolean DBG = TiConfig.LOGD;

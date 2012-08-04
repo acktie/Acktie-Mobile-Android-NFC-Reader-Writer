@@ -4,7 +4,7 @@ Titanium.UI.setBackgroundColor('#000');
 
 var writeTagDialog = undefined;
 
-var nfc = require('com.acktie.mobile.android.nfc.reader');
+var nfc = require('com.acktie.mobile.android.nfc');
 Ti.API.info("Is NFC Supported: " + nfc.isNFCEnabled);
 
 // If NFC is not enabled not point in init'ing
